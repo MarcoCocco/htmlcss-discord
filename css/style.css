@@ -98,7 +98,7 @@ nav .container {
 }
 
 .login a:hover {
-    color: blue;
+    color: #255ee9;
 }
 
 /* /NAVBAR */
@@ -130,15 +130,21 @@ header .header-container p {
 
 }
 
-header .header-container a .download-button {
-    width: 175px;
+header .header-container .download-button {
+    width: 180px;
     background-color: white;
     font-size: 1em;
+}
 
+header .header-container .download-button a {
+    color: black;
+}
+header .header-container .download-button a:hover {
+    color: #255ee9 ;
 }
 
 
-header .header-container a .browser-open-button {
+header .header-container .browser-open-button {
     width: 250px;
     background-color: #23272a;
     font-size: 1em;
