@@ -13,6 +13,10 @@ a {
     color: white;
 }
 
+h1 {
+    font-size: 45px;
+}
+
 .tw {
     color: white;
 }
@@ -88,38 +92,41 @@ header {
 
 header .header-container {
     height: 300px;
-    width: 700px;
-    background-color: blue;
+    width: 750px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-around;
+    align-content: center;
     gap: 20px;
 }
 
-.title {
-    height: 50px;
-    width: 450px;
-    background-color: wheat;
+header .header-container p {
+    text-align: center;
+    font-size: larger;
+    
 }
 
-.paragraph {
-    height: 80px;
-    width: 670px;
-    background-color: white;
+header .header-container .btn {
+    height: 46px;
+    border: none;
+    border-radius: 50px;
 }
 
-.download-button {
-    height: 45px;
+header .header-container .download-button {
     width: 175px;
-    background-color: blanchedalmond;
+    background-color: white;
+    font-size: 1em;
+
 }
 
-.browser-open-button {
-    height: 45px;
-    width: 255px;
-    background-color: rgb(41, 39, 39);
+header .header-container .browser-open-button {
+    width: 250px;
+    background-color: #23272a;
+    font-size: 1em;
+    color: white;
 }
+
+
 
 /* /HEADER */
 
