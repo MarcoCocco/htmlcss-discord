@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.tw {
+    color: white;
+}
+
 /* NAVBAR */
 li {
     list-style-type: none;
@@ -18,16 +31,10 @@ li {
 
 }
 
-.links ul li {
-    height: 40px;
-    width: 70px;
-    background-color: violet;
-}
-
 nav {
     min-width: 1300px;
     height: 70px;
-    background-color: rgba(10, 10, 201, 0.403);
+    background-color: #255ee9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +43,6 @@ nav {
 nav .container {
     min-width: 1300px;
     height: 60px;
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,21 +52,35 @@ nav .container {
 .login {
     height: 60px;
     width: 110px;
-    background-color: blueviolet;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 30px;
 }
 
 .links {
     height: 60px;
     width: 700px;
-    background-color: blueviolet;
+}
+
+.login .btn-login {
+    width: 66px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
 }
 
 /* /NAVBAR */
 
 /* HEADER */
 header {
-    height: 500px;
-    background-color: rgb(84, 84, 252);
+    height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
