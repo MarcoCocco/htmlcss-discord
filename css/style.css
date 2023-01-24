@@ -10,20 +10,37 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 h1 {
     font-size: 45px;
 }
 
+p {
+    font-size: 1.3em;
+}
+
 .tw {
     color: white;
 }
 
+.btn {
+    height: 46px;
+    border: none;
+    border-radius: 50px;
+}
+
 /* NAVBAR */
-li {
+.links ul li {
     list-style-type: none;
+}
+
+.links ul li a {
+    color: white;
+}
+
+.links ul a:hover {
+    text-decoration: underline;
 }
 
 .links ul {
@@ -78,12 +95,17 @@ nav .container {
     border-radius: 50px;
 }
 
+.login a:hover {
+    color: blue;
+}
+
 /* /NAVBAR */
 
 /* HEADER */
 header {
     height: 550px;
     background-image: url(../img/jumbo.png);
+    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -103,34 +125,44 @@ header .header-container {
 header .header-container p {
     text-align: center;
     font-size: larger;
-    
+
 }
 
-header .header-container .btn {
-    height: 46px;
-    border: none;
-    border-radius: 50px;
-}
-
-header .header-container .download-button {
+header .header-container a .download-button {
     width: 175px;
     background-color: white;
     font-size: 1em;
 
 }
 
-header .header-container .browser-open-button {
+
+
+header .header-container a .browser-open-button {
     width: 250px;
     background-color: #23272a;
     font-size: 1em;
     color: white;
 }
 
-
-
 /* /HEADER */
 
 /* MAIN*/
+.wave {
+    margin-bottom: -50px;
+}
+
+/* Non sapendo come capovolgere l'immagine ho fatto 
+una ricerca su internet su come farlo con CSS. 
+Preciso che è un codice extra che non conosco */
+.wave2 {
+    margin-top: -50px;
+    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+}
+
 main .block {
     height: 600px;
     display: flex;
@@ -159,64 +191,58 @@ main .two,
     background-color: #f6f6f6;
 }
 
-.bo-image {
-    height: 370px;
-    width: 550px;
-    background-color: rgb(41, 39, 39);
+.txt h1 {
+    margin-bottom: 25px;
 }
 
 .bo-text {
     height: 370px;
     width: 370px;
-    background-color: #f6f6f6;
 }
+
 
 .bt-text {
     height: 370px;
     width: 370px;
-    background-color: white;
 }
 
 .bt-image {
     height: 370px;
-    width: 550px;
-    background-color: rgb(41, 39, 39);
 }
 
 .bth-image {
     height: 370px;
-    width: 550px;
-    background-color: rgb(41, 39, 39);
 }
 
 .bth-text {
     height: 370px;
     width: 370px;
-    background-color: #f6f6f6;
 }
 
 .bf-text {
     height: 130px;
-    width: 870px;
-    background-color: white;
+    width: 1070px;
+    text-align: center;
 }
 
 .bf-image {
     height: 500px;
-    width: 970px;
-    background-color: rgb(41, 39, 39);
+}
+
+.bf-image2 {
+    margin-bottom: -90px;
 }
 
 .bf-text2 {
     height: 55px;
-    width: 445px;
-    background-color: white;
 }
 
 .download-button2 {
     height: 45px;
     width: 175px;
     background-color: #7289da;
+    font-size: 1em;
+    color: white;
 }
 
 /* /MAIN */
