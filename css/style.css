@@ -296,23 +296,28 @@ footer .footer-container .socials ul .flag {
     padding-top: 10px;
 }
 
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.footer-list ul li {
+    margin-top: 15px;
+}
+
+.footer-list ul li a:hover {
+    text-decoration: underline;
+}
+
 .footer-end {
     width: 1100px;
     border-top: 1px solid #6c90e8;
     display: flex;
     justify-content: space-between;
 
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-}
-
-.footer-list ul li {
-    margin-top: 15px;
 }
 
 .logo2 img {
